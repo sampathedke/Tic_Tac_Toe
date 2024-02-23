@@ -25,7 +25,7 @@ const Game = () => {
       
     } else if (squares.every((square) => square !== null)) {
     
-        return (<div className='draw'>'Draw!'</div>);
+        return (<div className='draw'>Draw!</div>);
     
     } else {
       return `Next player: ${xIsNext ? 'X' : 'O'}`;
