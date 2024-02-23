@@ -14,6 +14,7 @@ const Game = () => {
     newSquares[index] = xIsNext ? 'X' : 'O';
     setSquares(newSquares);
     setXIsNext(!xIsNext);
+    
   };
 
   const getStatus = () => {
